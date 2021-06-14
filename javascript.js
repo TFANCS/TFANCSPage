@@ -1,6 +1,10 @@
 function copyToClipboard(txt) {
-    navigator.clipboard.writeText(txt)
-    alert("Copied to clipboard");
+    navigator.clipboard.writeText(txt).then(() => {
+        alert("Copied to clipboard");
+    })
+    .catch(err => {
+        alert("Failed to copy for some reason");
+    });
 }
 
 
