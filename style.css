@@ -118,7 +118,7 @@ html {
         left: 35%;
         animation-duration: 7s;
         animation-delay: 2s;
-        background-color: #0af;
+        background-color: #72ffef;
         opacity: 0.2;
     }
 
@@ -144,8 +144,8 @@ html {
         left: 65%;
         animation-duration: 8s;
         animation-delay: 3s;
-        background-color: #0af;
-        opacity: 0.2;
+        background-color: #72ffef;
+        opacity: 0.4;
     }
 
     .bubble:nth-child(7) {
@@ -375,6 +375,12 @@ html {
         border-radius: 25%;
         float: right;
     }
+
+
+.cryptocurrencies {
+
+}
+
 
 
 
