@@ -101,14 +101,14 @@ html {
         width: 40px;
         height: 40px;
         left: 10%;
-        animation-duration: 8s;
+        animation-duration: 10s;
     }
 
     .bubble:nth-child(2) {
         width: 20px;
         height: 20px;
         left: 20%;
-        animation-duration: 5s;
+        animation-duration: 7s;
         animation-delay: 1s;
     }
 
@@ -116,7 +116,7 @@ html {
         width: 50px;
         height: 50px;
         left: 35%;
-        animation-duration: 7s;
+        animation-duration: 9s;
         animation-delay: 2s;
         background-color: #72ffef;
         opacity: 0.2;
@@ -126,7 +126,7 @@ html {
         width: 80px;
         height: 80px;
         left: 50%;
-        animation-duration: 11s;
+        animation-duration: 13s;
         animation-delay: 0s;
     }
 
@@ -134,7 +134,7 @@ html {
         width: 35px;
         height: 35px;
         left: 55%;
-        animation-duration: 6s;
+        animation-duration: 8s;
         animation-delay: 1s;
     }
 
@@ -142,7 +142,7 @@ html {
         width: 45px;
         height: 45px;
         left: 65%;
-        animation-duration: 8s;
+        animation-duration: 10s;
         animation-delay: 3s;
         background-color: #72ffef;
         opacity: 0.4;
@@ -152,7 +152,7 @@ html {
         width: 90px;
         height: 90px;
         left: 70%;
-        animation-duration: 12s;
+        animation-duration: 14s;
         animation-delay: 2s;
     }
 
@@ -160,7 +160,7 @@ html {
         width: 25px;
         height: 25px;
         left: 80%;
-        animation-duration: 6s;
+        animation-duration: 8s;
         animation-delay: 2s;
     }
 
@@ -168,7 +168,7 @@ html {
         width: 15px;
         height: 15px;
         left: 70%;
-        animation-duration: 5s;
+        animation-duration: 7s;
         animation-delay: 1s;
     }
 
@@ -176,7 +176,7 @@ html {
         width: 90px;
         height: 90px;
         left: 25%;
-        animation-duration: 10s;
+        animation-duration: 12s;
         animation-delay: 4s;
     }
 
@@ -185,14 +185,14 @@ html {
         width: 40px;
         height: 40px;
         left: 10%;
-        animation-duration: 8s;
+        animation-duration: 10s;
     }
 
     .bubble:nth-child(12) {
         width: 20px;
         height: 20px;
         left: 20%;
-        animation-duration: 5s;
+        animation-duration: 7s;
         animation-delay: 1s;
     }
 
@@ -200,7 +200,7 @@ html {
         width: 50px;
         height: 50px;
         left: 35%;
-        animation-duration: 7s;
+        animation-duration: 9s;
         animation-delay: 2s;
     }
 
@@ -208,7 +208,7 @@ html {
         width: 80px;
         height: 80px;
         left: 50%;
-        animation-duration: 11s;
+        animation-duration: 13s;
         animation-delay: 0s;
     }
 
@@ -216,7 +216,7 @@ html {
         width: 35px;
         height: 35px;
         left: 55%;
-        animation-duration: 6s;
+        animation-duration: 8s;
         animation-delay: 1s;
     }
 
@@ -224,7 +224,7 @@ html {
         width: 45px;
         height: 45px;
         left: 65%;
-        animation-duration: 8s;
+        animation-duration: 10s;
         animation-delay: 3s;
     }
 
@@ -232,7 +232,7 @@ html {
         width: 90px;
         height: 90px;
         left: 70%;
-        animation-duration: 12s;
+        animation-duration: 14s;
         animation-delay: 2s;
     }
 
@@ -240,7 +240,7 @@ html {
         width: 25px;
         height: 25px;
         left: 80%;
-        animation-duration: 6s;
+        animation-duration: 8s;
         animation-delay: 2s;
     }
 
@@ -248,7 +248,7 @@ html {
         width: 15px;
         height: 15px;
         left: 70%;
-        animation-duration: 5s;
+        animation-duration: 7s;
         animation-delay: 1s;
     }
 
@@ -256,7 +256,7 @@ html {
         width: 90px;
         height: 90px;
         left: 25%;
-        animation-duration: 10s;
+        animation-duration: 12s;
         animation-delay: 4s;
     }
 
@@ -272,10 +272,12 @@ html {
     }
 
     100% {
-        bottom: 1080px;
+        bottom: 200%;
         transform: translateX(-200px);
     }
 }
+
+
 
 
 
@@ -483,9 +485,16 @@ footer {
 }
 
 
+#calculator label {
+    display: inline;
+    font-size: 1.75em;
+    margin: 0 0 0 0.5em;
+}
 
-
-
+#calculator select {
+    margin: 0 1.5em 0 0;
+    font-size: 1.5em;
+}
 
 
 

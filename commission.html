@@ -36,10 +36,10 @@
             <ul>
                 <li>Line art:15$</li>
                 <li>Flat color:20$</li>
-                <li>Shaded:35$</li>
+                <li>Shaded:28$</li>
             </ul>
             <p>
-                Final price = x + x*0.7*(n-1)^(1.2)
+                Final price = x + x*0.6*(n-1)
             </p>
             <p id="declaration">
                 let x be the base price<br />
@@ -51,11 +51,11 @@
             <hr>
             <h3>Base price</h3>
             <ul>
-                <li>Flat color:55$</li>
-                <li>Shaded:70$</li>
+                <li>Flat color:50$</li>
+                <li>Shaded:65$</li>
             </ul>
             <p>
-                Final price = x + x*0.7*(n-1)^(1.2)
+                Final price = x + x*0.7*(n-1)^(1.1)
             </p>
         </div>
         <div>
@@ -63,11 +63,37 @@
             <hr>
             <h3>Base price</h3>
             <ul>
-                <li>Shaded:90$</li>
+                <li>Shaded:85$</li>
             </ul>
             <p>
                 Final price = x + x*0.8*(n-1)^(1.2)
             </p>
+        </div>
+        <div id="calculator">
+            <h2>Calculator</h2>
+            <label for="comm-type">Type:</label>
+            <select id="comm-type">
+                <option value="1">Still image</option>
+                <option value="2">Loop animation</option>
+                <option value="3">Full animation</option>
+            </select>
+            <label for="comm-color">Color:</label>
+            <select id="comm-color">
+                <option value="1">Line art</option>
+                <option value="2">Flat color</option>
+                <option value="3">Shaded</option>
+            </select>
+            <label for="comm-char-num">Characters:</label>
+            <select id="comm-char-num">
+                <option value="1">1</option>
+                <option value="1.5">1.5</option>
+                <option value="2">2</option>
+                <option value="2.5">2.5</option>
+                <option value="3">3</option>
+                <option value="3.5">3.5</option>
+                <option value="4">4</option>
+            </select>
+            <p id="comm-price">Price=</p>
         </div>
         <div>
             <h2>Rules</h2>
