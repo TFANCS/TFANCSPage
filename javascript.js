@@ -52,18 +52,18 @@ function charChange() {
 function calcPrice() {
     if (type_val == 1) {
         if (color_val == 1) {
-            base_price = 10;
+            base_price = 15;
         } else if (color_val == 2) {
-            base_price = 20;
+            base_price = 25;
         } else if (color_val == 3) {
             base_price = 35;
         }
         final_price = base_price + base_price * 0.6 * (char_val - 1);
     } else if (type_val == 2) {
         if (color_val == 2) {
-            base_price = 55;
+            base_price = 60;
         } else if (color_val == 3) {
-            base_price = 70;
+            base_price = 75;
         } else {
             color_val = 2;
             comm_color.options[1].selected = true;
@@ -73,7 +73,7 @@ function calcPrice() {
         final_price = base_price + base_price * 0.7 * (char_val - 1) ** (1.1);
     } else if (type_val == 3) {
         if (color_val == 3) {
-            base_price = 90;
+            base_price = 92;
         } else {
             color_val = 3;
             comm_color.options[2].selected = true;
