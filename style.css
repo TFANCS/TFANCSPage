@@ -380,7 +380,7 @@ html {
 
 
 .cryptocurrencies {
-
+    cursor:pointer;
 }
 
 
@@ -455,7 +455,7 @@ footer {
     .commission-info p {
         padding: 0.1em 0.1em;
         margin: 0.1em 0.7em;
-        font-size: 2em;
+        font-size: 3em;
     }
 
     .commission-info ul {
@@ -482,6 +482,11 @@ footer {
 #declaration {
     margin: 0.05em 5em;
     font-size: 1.2em;
+}
+
+#art-by-others {
+    margin: 0.1em 0.1em;
+    font-size: 2em;
 }
 
 
