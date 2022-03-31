@@ -1,5 +1,21 @@
 
 
+var type_val = 1;
+var color_val = 1;
+var char_val = 1;
+
+var final_price = 0;
+var base_price = 0;
+
+const comm_type = document.getElementById("comm-type");
+const comm_color = document.getElementById("comm-color");
+const comm_char = document.getElementById("comm-char-num");
+
+const comm_price = document.getElementById("comm-price");
+
+
+
+
 function copyToClipboard(txt) {
     navigator.clipboard.writeText(txt).then(() => {
         alert("Copied to clipboard");
@@ -13,21 +29,10 @@ function copyToClipboard(txt) {
 window.onload = function () {
     const spinner = document.getElementById('loading');
     spinner.classList.add('loaded');
+    comm_type.value = "1"
+    comm_color.value = "1"
+    comm_char.value = "1"
 }
-
-
-var type_val = 1;
-var color_val = 1;
-var char_val = 1;
-
-var final_price = 0;
-var base_price = 0;
-
-const comm_type = document.getElementById("comm-type");
-const comm_color = document.getElementById("comm-color");
-const comm_char = document.getElementById("comm-char-num");
-
-const comm_price = document.getElementById("comm-price");
 
 
 
