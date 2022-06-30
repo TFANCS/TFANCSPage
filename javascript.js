@@ -66,26 +66,26 @@ function calcPrice() {
         final_price = base_price + base_price * 0.6 * (char_val - 1);
     } else if (type_val == 2) {
         if (color_val == 2) {
-            base_price = 63;
+            base_price = 65;
         } else if (color_val == 3) {
-            base_price = 80;
+            base_price = 82;
         } else {
             color_val = 2;
             comm_color.options[1].selected = true;
             calcPrice();
             return;
         }
-        final_price = base_price + base_price * 0.7 * (char_val - 1) ** (1.1);
+        final_price = base_price + base_price * 0.75 * (char_val - 1) ** (1.1);
     } else if (type_val == 3) {
         if (color_val == 3) {
-            base_price = 97;
+            base_price = 98;
         } else {
             color_val = 3;
             comm_color.options[2].selected = true;
             calcPrice();
             return;
         }
-        final_price = base_price + base_price * 0.8 * (char_val - 1) ** (1.2);
+        final_price = base_price + base_price * 0.9 * (char_val - 1) ** (1.2);
     }
     final_price = Math.round(final_price * Math.pow(10, 1)) / Math.pow(10, 1)
     comm_price.textContent = "Price=" + final_price;
