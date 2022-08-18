@@ -301,49 +301,49 @@ html {
     }
 }
 
-    .link-list ul {
-        padding: 0em;
+.link-list ul {
+    padding: 0em;
+    margin: 0em;
+}
+
+    .link-list ul li {
+        padding: 0em 1.5em;
         margin: 0em;
+        list-style-type: none;
     }
 
-        .link-list ul li {
-            padding: 0em 1.5em;
-            margin: 0em;
-            list-style-type: none;
-        }
+.link-list h2 {
+    color: #000000;
+    font-size: 3em;
+    padding: 0.1em 0.1em;
+    margin: 0.1em 0.1em;
+    font-weight: normal;
+}
 
-    .link-list h2 {
-        color: #000000;
-        font-size: 3em;
-        padding: 0.1em 0.1em;
-        margin: 0.1em 0.1em;
-        font-weight:normal;
+
+.link-list ul li a, span {
+    display: inline-block;
+    padding: 0.2em 0;
+    margin: 0.1em 0em;
+    width: 80%;
+    background-color: #FF99CC;
+    border: dashed 2px #FFFFFF;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #6c0065;
+    font-size: 3vw;
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+    vertical-align: central;
+}
+
+    .link-list ul li a:hover, span:hover {
+        border: solid 2px #6c0065;
+        background-color: #FF77AA;
+        width: 90%;
+        font-size: 4vw;
+        padding: 0em 0;
     }
-
-
-    .link-list ul li a, span {
-        display: inline-block;
-        padding: 0.2em 0;
-        margin: 0.1em 0em;
-        width: 80%;
-        background-color: #FF99CC;
-        border: dashed 2px #FFFFFF;
-        border-radius: 20px;
-        text-decoration: none;
-        color: #6c0065;
-        font-size: 3vw;
-        box-sizing: border-box;
-        transition-duration: 0.3s;
-        vertical-align: central;
-    }
-
-        .link-list ul li a:hover, span:hover {
-            border: solid 2px #6c0065;
-            background-color: #FF77AA;
-            width: 90%;
-            font-size: 4vw;
-            padding: 0em 0;
-        }
 
 
 @media screen and (max-aspect-ratio: 1/1) {
@@ -358,25 +358,25 @@ html {
 }
 
 
-    .link-list .icon-l {
-        margin: 0.1em 0.75em;
-        width: 1em;
-        vertical-align: middle;
-        background-color: #FFFFFF;
-        box-shadow: 0 0 10px 10px #FFFFFF;
-        border-radius: 25%;
-        float: left;
-    }
+.link-list .icon-l {
+    margin: 0.1em 0.75em;
+    width: 1em;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px 10px #FFFFFF;
+    border-radius: 25%;
+    float: left;
+}
 
-    .link-list .icon-r {
-        margin: 0.1em 0.75em;
-        width: 1em;
-        vertical-align: middle;
-        background-color: #FFFFFF;
-        box-shadow: 0 0 10px 10px #FFFFFF;
-        border-radius: 25%;
-        float: right;
-    }
+.link-list .icon-r {
+    margin: 0.1em 0.75em;
+    width: 1em;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px 10px #FFFFFF;
+    border-radius: 25%;
+    float: right;
+}
 
 
 .cryptocurrencies {
@@ -421,63 +421,63 @@ footer {
     }
 }
 
-    .commission-info h1 {
-        font-size: 5em;
-        padding: 0.1em 0.1em;
-        margin: 0.1em 0.4em;
-        font-weight: normal;
-    }
+.commission-info h1 {
+    font-size: 5em;
+    padding: 0.1em 0.1em;
+    margin: 0.1em 0.4em;
+    font-weight: normal;
+}
 
-    .commission-info h2 {
-        font-size: 3em;
-        padding: 0.1em 0.1em;
-        margin: 0.1em 1.2em;
-        font-weight: normal;
-    }
+.commission-info h2 {
+    font-size: 3em;
+    padding: 0.1em 0.1em;
+    margin: 0.1em 1.2em;
+    font-weight: normal;
+}
 
-    .commission-info h3 {
-        font-size: 2.5em;
-        padding: 0.1em 0.1em;
-        margin: 0.1em 0.7em;
-        font-weight: normal;
-    }
+.commission-info h3 {
+    font-size: 2.5em;
+    padding: 0.1em 0.1em;
+    margin: 0.1em 0.7em;
+    font-weight: normal;
+}
 
-    .commission-info div {
-        margin: 2em;
-        border: dashed 2px #6c0065;
-        border-radius: 20px;
-    }
+.commission-info div {
+    margin: 2em;
+    border: dashed 2px #6c0065;
+    border-radius: 20px;
+}
 
-    .commission-info hr {
-        border-top: dashed 2px #6c0065;
-    }
+.commission-info hr {
+    border-top: dashed 2px #6c0065;
+}
 
-    .commission-info p {
-        padding: 0.1em 0.1em;
-        margin: 0.1em 0.7em;
-        font-size: 3em;
-    }
+.commission-info p {
+    padding: 0.1em 0.1em;
+    margin: 0.1em 0.7em;
+    font-size: 3em;
+}
 
-    .commission-info ul {
-        margin: 0.1em 2em;
-    }
+.commission-info ul {
+    margin: 0.1em 2em;
+}
 
-    .commission-info li {
-        font-size: 2em;
-    }
+.commission-info li {
+    font-size: 2em;
+}
 
-    .commission-info a {
-        line-height: 2rem;
-        font-size: 1em;
-        text-decoration: none;
-        transition-duration: 0.3s;
-        color:#6c0065;
-    }
+.commission-info a {
+    line-height: 2rem;
+    font-size: 1em;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    color: #6c0065;
+}
 
-        .commission-info a:hover {
-            font-size: 1.2em;
-            color: #FF6699;
-        }
+    .commission-info a:hover {
+        font-size: 1.2em;
+        color: #FF6699;
+    }
 
 #declaration {
     margin: 0.05em 5em;
@@ -502,5 +502,17 @@ footer {
 }
 
 
+.cryptocurrencies span {
+    width:25%;
+    font-size:2em;
+    text-align:left;
+}
 
 
+.cryptocurrencies span img {
+    margin: 0;
+}
+
+#crypto-head {
+    font-size:1.5em;
+}
