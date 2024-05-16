@@ -85,7 +85,7 @@ function calcPrice() {
             calcPrice();
             return;
         }
-        final_price = base_price + base_price * 0.9 * (char_val - 1) ** (1.2);
+        final_price = base_price + base_price * 0.75 * (char_val - 1);
     }
     final_price = Math.round(final_price * Math.pow(10, 1)) / Math.pow(10, 1)
     comm_price.textContent = "Price=" + final_price;
